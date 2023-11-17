@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+    animation: 20s rotate linear infinite;
+    transform-origin: 30px;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+img {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+img:hover {
+    color: brown;
+    rotate: -30deg;
+}
+
+body {
+    background-color: purple;
+}
